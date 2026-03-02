@@ -209,6 +209,36 @@ a {
 	color: var(--muted);
 }
 
+.course-code {
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: var(--primary);
+	margin-bottom: 0.8rem !important;
+}
+
+.task-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 0.5rem;
+}
+
+.task-list li {
+	font-size: 0.9rem;
+	color: var(--muted);
+	padding-left: 1.3rem;
+	position: relative;
+}
+
+.task-list li:before {
+	content: "✓";
+	position: absolute;
+	left: 0;
+	color: var(--primary);
+	font-weight: 700;
+}
+
 .about-layout {
 	display: grid;
 	gap: 1.4rem;
@@ -358,7 +388,7 @@ a {
 	}
 
 	.feature-grid {
-		grid-template-columns: repeat(3, minmax(0, 1fr));
+		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 
 	.hero {
