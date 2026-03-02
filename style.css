@@ -212,7 +212,7 @@ a {
 .course-code {
 	font-size: 0.9rem;
 	font-weight: 600;
-	color: var(--primary);
+	color: #2563eb;
 	margin-bottom: 0.8rem !important;
 }
 
